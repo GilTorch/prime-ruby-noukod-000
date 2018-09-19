@@ -1,7 +1,6 @@
 # Add  code here!
 def prime?(number)
-  numbers = (1...number).to_a
-  numbers.shift
+  numbers = (2...number).to_a
   return_values = []
   numbers.each {|digit|
     if number % digit !=0
